@@ -1,0 +1,17 @@
+
+
+.card-img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+  object-position: center; /* Centers the image */
+}
+.card-img-wrapper {
+  aspect-ratio: 16/9; /* Adjust as needed */
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
